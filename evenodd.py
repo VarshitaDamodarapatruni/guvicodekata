@@ -1,6 +1,5 @@
-N = int(input())
-mod = N % 2
- if mod > 0:
+N=int(input());  
+if(N%2==0):  
+    print("Even")  
+else:  
     print("Odd")
-	  else:
-      print("Even")
