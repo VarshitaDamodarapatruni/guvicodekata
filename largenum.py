@@ -1,11 +1,11 @@
-a = int(input())
-b = int(input())
-c = int(input())
-if (a >= b) and (a >= c):
-   largest = a
-elif (b >= a) and (b >= c):
-   largest = b
+a11 = int(input())
+b12 = int(input())
+c13 = int(input())
+if (a11 >= b12) and (a11 >= c13):
+   largest = a11
+elif (b12 >= a11) and (b12 >= c13):
+   largest = b12
 else:
-   largest = c
+   largest = c13
  
 print(largest)
