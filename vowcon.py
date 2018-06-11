@@ -1,5 +1,8 @@
 c = input()
-if c in ('a', 'e', 'i', 'o', 'u'):
-	print("Vowel")
+if c.isalpha():
+	if c in ('a', 'e', 'i', 'o', 'u'):
+		print("Vowel")
+	else:
+		print("Consonant")
 else:
-	print("Consonant")
+	print("not an alphabet")
