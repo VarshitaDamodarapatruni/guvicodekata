@@ -5,14 +5,12 @@ class Check
   public static void main(String args[])
   {
     int N;
-    System.out.println("Enter an Integer number:");
-    Scanner input = new Scanner(System.in);
     N = input.nextInt();
     if ( N == 0 )
-        System.out.println("Entered number is zero");
+        System.out.println("zero");
      else if(N>0)
-        System.out.println("Entered number is positive");
+        System.out.println("positive");
         else
-         System.out.println("Entered number is negative");
+         System.out.println("negative");
   }
 }
