@@ -1,5 +1,3 @@
-import math
-var1=int(input())
-var2=int(input())
-Power=math.pow(var1,var2)
-print(Power)
+var1=float(input())
+var2=float(input())
+print(var1**var2)
